@@ -1,0 +1,22 @@
+services:
+  db:
+    # pgvector 0.8.7 on PostgreSQL 18 (Debian trixie), pinned by digest
+    image: pgvector/pgvector:0.8.7-pg18-trixie@sha256:5895949dfcdf308eb0cd31c950c93c14895c77f33fbedfecf1fa511ab1d4bcd2
+    environment:
+      POSTGRES_DB: wiki
+      POSTGRES_USER: laravel
+      POSTGRES_PASSWORD: secret
+    command: ["postgres", "-c", "shared_buffers=1GB", "-c", "maintenance_work_mem=512MB"]
+    shm_size: 1g
+    # over TCP: the temporary server Postgres runs while it initialises listens on the socket only
+    healthcheck:
+      test: ["CMD", "pg_isready", "-h", "127.0.0.1", "-U", "laravel", "-d", "wiki"]
+      interval: 2s
+      retries: 30
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql
+
+volumes:
+  pgdata:

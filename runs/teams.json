@@ -1,0 +1,4011 @@
+{
+    "teams": [
+        {
+            "team_id": 1,
+            "size": 16941,
+            "off": {
+                "avg_rows": 7.55,
+                "recall": 0.705,
+                "median_ms": 3.058375,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.87,
+                "median_ms": 3.8160415,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 2,
+            "size": 8546,
+            "off": {
+                "avg_rows": 2.75,
+                "recall": 0.275,
+                "median_ms": 2.7147915,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.815,
+                "median_ms": 5.4818750000000005,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 3,
+            "size": 5744,
+            "off": {
+                "avg_rows": 2.7,
+                "recall": 0.27,
+                "median_ms": 2.791812,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.845,
+                "median_ms": 6.3203335,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 4,
+            "size": 4183,
+            "off": {
+                "avg_rows": 1.9,
+                "recall": 0.19,
+                "median_ms": 3.027479,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.87,
+                "median_ms": 7.225937500000001,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 5,
+            "size": 3446,
+            "off": {
+                "avg_rows": 1.55,
+                "recall": 0.155,
+                "median_ms": 2.919041,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.82,
+                "median_ms": 8.8273125,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 6,
+            "size": 2766,
+            "off": {
+                "avg_rows": 1.3,
+                "recall": 0.13,
+                "median_ms": 2.9085625000000004,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.86,
+                "median_ms": 8.617542,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 7,
+            "size": 2419,
+            "off": {
+                "avg_rows": 1.25,
+                "recall": 0.125,
+                "median_ms": 2.710604,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.85,
+                "median_ms": 9.839125,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 8,
+            "size": 2125,
+            "off": {
+                "avg_rows": 0.7,
+                "recall": 0.07,
+                "median_ms": 2.803063,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.855,
+                "median_ms": 10.962603999999999,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 9,
+            "size": 1894,
+            "off": {
+                "avg_rows": 0.6,
+                "recall": 0.06,
+                "median_ms": 2.8829165,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.845,
+                "median_ms": 12.0312705,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 10,
+            "size": 1642,
+            "off": {
+                "avg_rows": 0.75,
+                "recall": 0.075,
+                "median_ms": 2.991167,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.885,
+                "median_ms": 12.812854,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 11,
+            "size": 1492,
+            "off": {
+                "avg_rows": 0.6,
+                "recall": 0.06,
+                "median_ms": 2.7900625000000003,
+                "plans": [
+                    "hnsw"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 0.9,
+                "median_ms": 13.861458500000001,
+                "plans": [
+                    "hnsw"
+                ]
+            }
+        },
+        {
+            "team_id": 12,
+            "size": 1426,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 5.065771,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 5.1089165,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 13,
+            "size": 1297,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.8845,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 5.0828125,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 14,
+            "size": 1234,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.9690835,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.8300415,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 15,
+            "size": 1063,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.219667,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.473083,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 16,
+            "size": 1089,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.2814375,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.6213335,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 17,
+            "size": 1031,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.5837295000000005,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.1486665,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 18,
+            "size": 963,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.0813120000000005,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.221854,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 19,
+            "size": 828,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.8963335,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.0725625,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 20,
+            "size": 842,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.8613334999999998,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.3640625,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 21,
+            "size": 785,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.083896,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.443583500000001,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 22,
+            "size": 812,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.004187,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 5.052646,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 23,
+            "size": 727,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.1341660000000005,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.310833499999999,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 24,
+            "size": 739,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.1085625,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.0435,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 25,
+            "size": 662,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.1111045,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.0464165,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 26,
+            "size": 622,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 5.6583120000000005,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.8730625,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 27,
+            "size": 667,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.665833,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.6860415,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 28,
+            "size": 611,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.6404585000000003,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.3181459999999996,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 29,
+            "size": 591,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.361,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.033625,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 30,
+            "size": 526,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.088438,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.3379585,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 31,
+            "size": 552,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.2739165000000003,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.356042,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 32,
+            "size": 596,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.570354,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.2529375,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 33,
+            "size": 531,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.4086455,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.4315625,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 34,
+            "size": 507,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.2157085,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.6247085,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 35,
+            "size": 481,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.2294375000000004,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.0835205,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 36,
+            "size": 474,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.3709375,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.4287710000000002,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 37,
+            "size": 463,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.9674165,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.796979,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 38,
+            "size": 437,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8445,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7995205,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 39,
+            "size": 468,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.284792,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.5175205,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 40,
+            "size": 441,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.2402705,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.153021,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 41,
+            "size": 402,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.882292,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8111040000000003,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 42,
+            "size": 400,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.0280415,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.825479,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 43,
+            "size": 398,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8134165,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.72175,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 44,
+            "size": 392,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.737146,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7766455,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 45,
+            "size": 366,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7217085,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.715792,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 46,
+            "size": 351,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5789165,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5541665,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 47,
+            "size": 413,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7376665,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7629585,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 48,
+            "size": 363,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.9098125,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6440415,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 49,
+            "size": 310,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4181665,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4761455000000003,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 50,
+            "size": 324,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.234792,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.1170625000000003,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 51,
+            "size": 313,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.9693745,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7877085,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 52,
+            "size": 352,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.1230625,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7538545,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 53,
+            "size": 341,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.628813,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5938749999999997,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 54,
+            "size": 332,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5062915,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.3212080000000004,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 55,
+            "size": 354,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.995458,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7995835,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 56,
+            "size": 287,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6080414999999997,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.49075,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 57,
+            "size": 295,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.485062,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6102714999999996,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 58,
+            "size": 291,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5685000000000002,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4602705,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 59,
+            "size": 301,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5421875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7233335,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 60,
+            "size": 284,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5387715,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.1863125,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 61,
+            "size": 294,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.924375,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.669854,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 62,
+            "size": 314,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7430630000000003,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.2431039999999998,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 63,
+            "size": 268,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7006875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.1588754999999997,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 64,
+            "size": 277,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.1164375,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5501875,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 65,
+            "size": 235,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.528479,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.558146,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 66,
+            "size": 263,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.282812,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.239042,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 67,
+            "size": 262,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.2045209999999997,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.8323540000000005,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 68,
+            "size": 255,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.061792,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.1765625,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 69,
+            "size": 240,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7006045,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5926460000000002,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 70,
+            "size": 276,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.715896,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.1523335,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 71,
+            "size": 230,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.467042,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6703330000000003,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 72,
+            "size": 224,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.595854,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8023755,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 73,
+            "size": 224,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6402295000000002,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.684854,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 74,
+            "size": 224,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.552,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6077500000000002,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 75,
+            "size": 233,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.810333,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.0122705,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 76,
+            "size": 222,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8864585,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 4.9751875000000005,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 77,
+            "size": 232,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.904417,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5954375,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 78,
+            "size": 198,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.877104,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8544585,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 79,
+            "size": 235,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.935333,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.763271,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 80,
+            "size": 224,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4456875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.599146,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 81,
+            "size": 208,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6310415,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8835835,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 82,
+            "size": 228,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.529292,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.458938,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 83,
+            "size": 199,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6774585,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.730542,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 84,
+            "size": 187,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6405835,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.998854,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 85,
+            "size": 194,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.474104,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5952085,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 86,
+            "size": 190,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4565835,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.396708,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 87,
+            "size": 197,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.582042,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8292085,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 88,
+            "size": 193,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.659604,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.61275,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 89,
+            "size": 194,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.744458,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.0320210000000003,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 90,
+            "size": 211,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6207079999999996,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7475835,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 91,
+            "size": 180,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.581125,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.270812,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 92,
+            "size": 198,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.320396,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4531669999999997,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 93,
+            "size": 198,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3159165,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.58125,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 94,
+            "size": 181,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5865205,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4057705,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 95,
+            "size": 201,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4231875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3917085,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 96,
+            "size": 152,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5469999999999997,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4212915,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 97,
+            "size": 168,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6698955,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8071875,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 98,
+            "size": 167,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4986664999999997,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.480854,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 99,
+            "size": 175,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5060415,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.455604,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 100,
+            "size": 156,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4184585,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.522667,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 101,
+            "size": 169,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5962500000000004,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3647505,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 102,
+            "size": 169,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.362063,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.302375,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 103,
+            "size": 187,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.43275,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.284729,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 104,
+            "size": 155,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.622417,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.363229,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 105,
+            "size": 150,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5051665,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3701455,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 106,
+            "size": 164,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.349271,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.605125,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 107,
+            "size": 161,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4431255,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.483041,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 108,
+            "size": 146,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4321669999999997,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5568125000000004,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 109,
+            "size": 190,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6186455,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.395125,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 110,
+            "size": 150,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.584271,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4088125,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 111,
+            "size": 152,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.545125,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3505415000000003,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 112,
+            "size": 141,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5851875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.323354,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 113,
+            "size": 154,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3086875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4996245,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 114,
+            "size": 146,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8002285000000002,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3834795,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 115,
+            "size": 145,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4381665,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4841045,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 116,
+            "size": 146,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3984165,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.8047500000000003,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 117,
+            "size": 140,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7136455,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.9499165,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 118,
+            "size": 146,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4073335,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7052915,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 119,
+            "size": 157,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5394375,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.7950204999999997,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 120,
+            "size": 153,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.9267295,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.2606875,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 121,
+            "size": 133,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.295167,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.457813,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 122,
+            "size": 145,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4244585,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.357375,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 123,
+            "size": 145,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3866665,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4074999999999998,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 124,
+            "size": 133,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1561874999999997,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3116874999999997,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 125,
+            "size": 113,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2776255,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3815625000000002,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 126,
+            "size": 139,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2766875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6144375,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 127,
+            "size": 142,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.468646,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.383146,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 128,
+            "size": 155,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.5253959999999998,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.493937,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 129,
+            "size": 144,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3475,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.256917,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 130,
+            "size": 138,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2611660000000002,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.370875,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 131,
+            "size": 140,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.4124165,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.201688,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 132,
+            "size": 141,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.220187,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1956670000000003,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 133,
+            "size": 150,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1591875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1724375,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 134,
+            "size": 121,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2057915,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0459994999999997,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 135,
+            "size": 121,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0162500000000003,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0936045,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 136,
+            "size": 134,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1081874999999997,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.131354,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 137,
+            "size": 135,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.244187,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3442295,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 138,
+            "size": 120,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.102979,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2993335,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 139,
+            "size": 133,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1247705000000003,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2654379999999996,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 140,
+            "size": 118,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2412710000000002,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0576875,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 141,
+            "size": 125,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1754585,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.095917,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 142,
+            "size": 120,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.150333,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.468979,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 143,
+            "size": 116,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3299995,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.171146,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 144,
+            "size": 114,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.121292,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0224165,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 145,
+            "size": 124,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1197915,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.104,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 146,
+            "size": 91,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.8252915,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9294585,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 147,
+            "size": 103,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.522792,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 3.196854,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 148,
+            "size": 115,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3334165000000002,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2944994999999997,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 149,
+            "size": 106,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2769585,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.209271,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 150,
+            "size": 108,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.354604,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.372458,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 151,
+            "size": 104,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.61525,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3232495,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 152,
+            "size": 124,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0948124999999997,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.024146,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 153,
+            "size": 102,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.096479,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0199165,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 154,
+            "size": 105,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0592705000000002,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1040834999999998,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 155,
+            "size": 124,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.131875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.174833,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 156,
+            "size": 115,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.539917,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.370625,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 157,
+            "size": 122,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0843125000000002,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.166271,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 158,
+            "size": 99,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.203708,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1630209999999996,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 159,
+            "size": 101,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1504165,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1923335,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 160,
+            "size": 101,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1659585,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.171021,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 161,
+            "size": 88,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9652915,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.93975,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 162,
+            "size": 94,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.112604,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1452295,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 163,
+            "size": 107,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0992499999999996,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.6087084999999997,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 164,
+            "size": 103,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9835625000000001,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.753687,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 165,
+            "size": 98,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0091455,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.049604,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 166,
+            "size": 106,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.035542,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0341875,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 167,
+            "size": 98,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0845624999999997,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.8568335,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 168,
+            "size": 92,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.8860830000000002,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.249229,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 169,
+            "size": 109,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2939165,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2151455,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 170,
+            "size": 78,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9413749999999999,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.895771,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 171,
+            "size": 92,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.8390415,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0815835,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 172,
+            "size": 97,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.072021,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0489170000000003,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 173,
+            "size": 99,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.945,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0173544999999997,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 174,
+            "size": 90,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1298545,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.8831250000000002,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 175,
+            "size": 116,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.019146,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.114979,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 176,
+            "size": 91,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.897896,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.032146,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 177,
+            "size": 63,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.8644165,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.8395835,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 178,
+            "size": 91,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0053335,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9237294999999999,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 179,
+            "size": 100,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.884333,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0040204999999998,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 180,
+            "size": 93,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9736875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.073041,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 181,
+            "size": 90,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0026669999999998,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.862125,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 182,
+            "size": 90,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.7736045,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.750813,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 183,
+            "size": 91,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.841875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.941542,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 184,
+            "size": 103,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9536245,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0526245000000003,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 185,
+            "size": 103,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.583,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.520625,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 186,
+            "size": 77,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.120958,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.112375,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 187,
+            "size": 78,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.029541,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1119165,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 188,
+            "size": 96,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0183335,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.029,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 189,
+            "size": 108,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0356045,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.089229,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 190,
+            "size": 109,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1567290000000003,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2081045,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 191,
+            "size": 77,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1270005000000003,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1000835,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 192,
+            "size": 87,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9378965,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9766460000000001,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 193,
+            "size": 82,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.054396,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3976875,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 194,
+            "size": 82,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9648755,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0650209999999998,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 195,
+            "size": 91,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.021417,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.150125,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 196,
+            "size": 108,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3336880000000004,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.3321870000000002,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 197,
+            "size": 98,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0450204999999997,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.2106045,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 198,
+            "size": 86,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.0976665,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9291459999999998,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 199,
+            "size": 77,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9016875,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.8596249999999999,
+                "plans": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "team_id": 200,
+            "size": 83,
+            "off": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 1.9233125,
+                "plans": [
+                    "other"
+                ]
+            },
+            "strict": {
+                "avg_rows": 10,
+                "recall": 1,
+                "median_ms": 2.1204995,
+                "plans": [
+                    "other"
+                ]
+            }
+        }
+    ],
+    "meta": {
+        "queries": 20,
+        "pgvector": "0.8.7",
+        "postgres": "18.6 (Debian 18.6-1.pgdg13+2)",
+        "rows": 100000,
+        "at": "2026-11-11T14:59:44+00:00"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "teams_1_to_11": [
+        {
+            "iterative_scan": "strict_order",
+            "outer_order": "distance",
+            "rows": 2200,
+            "recall": 0.855909090909091,
+            "searches_out_of_order": 0,
+            "median_ms": 8.831187499999999
+        },
+        {
+            "iterative_scan": "relaxed_order",
+            "outer_order": "distance",
+            "rows": 2200,
+            "recall": 0.9268181818181818,
+            "searches_out_of_order": 84,
+            "median_ms": 8.556000000000001
+        },
+        {
+            "iterative_scan": "relaxed_order",
+            "outer_order": "distance + 0",
+            "rows": 2200,
+            "recall": 0.9268181818181818,
+            "searches_out_of_order": 0,
+            "median_ms": 8.0043125
+        }
+    ],
+    "meta": {
+        "queries": 20,
+        "pgvector": "0.8.7",
+        "postgres": "18.6 (Debian 18.6-1.pgdg13+2)",
+        "rows": 100000,
+        "at": "2026-11-11T15:58:31+00:00"
+    }
+}

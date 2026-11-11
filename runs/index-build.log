@@ -1,0 +1,40 @@
+Timing is on.
+                                                         version                                                          | extversion 
+--------------------------------------------------------------------------------------------------------------------------+------------
+ PostgreSQL 18.6 (Debian 18.6-1.pgdg13+2) on aarch64-unknown-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit | 0.8.7
+(1 row)
+
+Time: 3.862 ms
+ max_parallel_maintenance_workers 
+----------------------------------
+ 2
+(1 row)
+
+Time: 0.111 ms
+CREATE TABLE
+Time: 1.655 ms
+CREATE INDEX
+Time: 0.451 ms
+INSERT 0 100000
+Time: 304126.455 ms (05:04.126)
+CREATE TABLE
+Time: 2.532 ms
+INSERT 0 100000
+Time: 1291.438 ms (00:01.291)
+SET
+Time: 0.420 ms
+CREATE INDEX
+Time: 18915.347 ms (00:18.915)
+DROP INDEX
+Time: 14.962 ms
+SET
+Time: 0.152 ms
+NOTICE:  hnsw graph no longer fits into maintenance_work_mem after 28362 tuples
+DETAIL:  Building will take significantly more time.
+HINT:  Increase maintenance_work_mem to speed up builds.
+CREATE INDEX
+Time: 62102.724 ms (01:02.103)
+DROP TABLE
+Time: 14.653 ms
+DROP TABLE
+Time: 10.767 ms

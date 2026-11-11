@@ -1,0 +1,81 @@
+{
+    "by_threshold": [
+        {
+            "min_similarity": 0.5,
+            "iterative_scan": "off",
+            "avg_rows": 10,
+            "laravel_median_ms": 6.0596875,
+            "subquery_median_ms": 3.1585834999999998
+        },
+        {
+            "min_similarity": 0.5,
+            "iterative_scan": "strict_order",
+            "avg_rows": 10,
+            "laravel_median_ms": 3.285187,
+            "subquery_median_ms": 2.4921255
+        },
+        {
+            "min_similarity": 0.6,
+            "iterative_scan": "off",
+            "avg_rows": 10,
+            "laravel_median_ms": 3.0772915000000003,
+            "subquery_median_ms": 2.3863335
+        },
+        {
+            "min_similarity": 0.6,
+            "iterative_scan": "strict_order",
+            "avg_rows": 10,
+            "laravel_median_ms": 3.164688,
+            "subquery_median_ms": 2.5641665
+        },
+        {
+            "min_similarity": 0.7,
+            "iterative_scan": "off",
+            "avg_rows": 3.02,
+            "laravel_median_ms": 3.220479,
+            "subquery_median_ms": 2.404896
+        },
+        {
+            "min_similarity": 0.7,
+            "iterative_scan": "strict_order",
+            "avg_rows": 3.02,
+            "laravel_median_ms": 74.005375,
+            "subquery_median_ms": 2.7562290000000003
+        },
+        {
+            "min_similarity": 0.8,
+            "iterative_scan": "off",
+            "avg_rows": 0.1,
+            "laravel_median_ms": 3.3523125,
+            "subquery_median_ms": 2.3378959999999998
+        },
+        {
+            "min_similarity": 0.8,
+            "iterative_scan": "strict_order",
+            "avg_rows": 0.1,
+            "laravel_median_ms": 72.717521,
+            "subquery_median_ms": 2.746833
+        },
+        {
+            "min_similarity": 0.9,
+            "iterative_scan": "off",
+            "avg_rows": 0,
+            "laravel_median_ms": 3.331166,
+            "subquery_median_ms": 2.6238954999999997
+        },
+        {
+            "min_similarity": 0.9,
+            "iterative_scan": "strict_order",
+            "avg_rows": 0,
+            "laravel_median_ms": 69.300854,
+            "subquery_median_ms": 2.6734375
+        }
+    ],
+    "meta": {
+        "queries": 50,
+        "pgvector": "0.8.7",
+        "postgres": "18.6 (Debian 18.6-1.pgdg13+2)",
+        "rows": 100000,
+        "at": "2026-11-11T15:00:28+00:00"
+    }
+}

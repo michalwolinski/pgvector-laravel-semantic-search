@@ -1,0 +1,1088 @@
+{
+    "bge": [
+        {
+            "q": "when did the wall that split the German capital come down",
+            "title": "Berlin Wall",
+            "target": 0.8362943930976919,
+            "rank": 1,
+            "above_default": 274,
+            "best_other": 0.7304854071718991,
+            "median": 0.4531557639175699
+        },
+        {
+            "q": "how do plants turn sunlight into food",
+            "title": "Photosynthesis",
+            "target": 0.7766951652401882,
+            "rank": 1,
+            "above_default": 146,
+            "best_other": 0.7418348039290206,
+            "median": 0.41144329394712353
+        },
+        {
+            "q": "highest mountain on the border of Nepal",
+            "title": "Mount Everest",
+            "target": 0.6811869550458762,
+            "rank": 3,
+            "above_default": 34,
+            "best_other": 0.7420015777350413,
+            "median": 0.38917999299824413
+        },
+        {
+            "q": "physicist who came up with relativity",
+            "title": "Albert Einstein",
+            "target": 0.812484622001648,
+            "rank": 2,
+            "above_default": 109,
+            "best_other": 0.8293008106530211,
+            "median": 0.41904005890845974
+        },
+        {
+            "q": "first antibiotic discovered from mould",
+            "title": "Penicillin",
+            "target": 0.668633222579956,
+            "rank": 4,
+            "above_default": 41,
+            "best_other": 0.7249822072668886,
+            "median": 0.4590283942512391
+        },
+        {
+            "q": "giant sea wave after an undersea earthquake",
+            "title": "Tsunami",
+            "target": 0.7086246051154681,
+            "rank": 2,
+            "above_default": 54,
+            "best_other": 0.7501409500921352,
+            "median": 0.43723186102293266
+        },
+        {
+            "q": "insects that make honey and live in hives",
+            "title": "Honey bee",
+            "target": 0.7251585774265451,
+            "rank": 3,
+            "above_default": 71,
+            "best_other": 0.7443269865415428,
+            "median": 0.4058496211357434
+        },
+        {
+            "q": "board game with kings, queens and checkmate",
+            "title": "Chess",
+            "target": 0.7945230603218079,
+            "rank": 1,
+            "above_default": 22,
+            "best_other": 0.7246068284149881,
+            "median": 0.427760762803451
+        },
+        {
+            "q": "decentralised digital currency with no bank",
+            "title": "Bitcoin",
+            "target": 0.7422670039932439,
+            "rank": 1,
+            "above_default": 20,
+            "best_other": 0.6964314606575487,
+            "median": 0.41986317932601025
+        },
+        {
+            "q": "injection that trains the immune system against a disease",
+            "title": "Vaccine",
+            "target": 0.7292300897377796,
+            "rank": 3,
+            "above_default": 32,
+            "best_other": 0.7418140769004822,
+            "median": 0.4277399437272522
+        },
+        {
+            "q": "region of space where light cannot escape gravity",
+            "title": "Black hole",
+            "target": 0.6829935312271118,
+            "rank": 1,
+            "above_default": 43,
+            "best_other": 0.6600592529809042,
+            "median": 0.42714737355709076
+        },
+        {
+            "q": "flat Italian dish with tomato and cheese baked in an oven",
+            "title": "Pizza",
+            "target": 0.697717192564952,
+            "rank": 1,
+            "above_default": 12,
+            "best_other": 0.6854571512613983,
+            "median": 0.3651660342563998
+        },
+        {
+            "q": "drink brewed from roasted beans",
+            "title": "Coffee",
+            "target": 0.6781871914863586,
+            "rank": 1,
+            "above_default": 8,
+            "best_other": 0.6409818744074193,
+            "median": 0.39591601490974426
+        },
+        {
+            "q": "ship that sank in 1912 after hitting an iceberg",
+            "title": "Titanic",
+            "target": 0.7957090966181346,
+            "rank": 1,
+            "above_default": 22,
+            "best_other": 0.6973741497656955,
+            "median": 0.4049413183227224
+        },
+        {
+            "q": "molecule that carries genetic instructions",
+            "title": "DNA",
+            "target": 0.7761320471763611,
+            "rank": 1,
+            "above_default": 59,
+            "best_other": 0.7683032016934886,
+            "median": 0.4335324168205261
+        },
+        {
+            "q": "author of Hamlet and Romeo and Juliet",
+            "title": "William Shakespeare",
+            "target": 0.7374733969537492,
+            "rank": 1,
+            "above_default": 99,
+            "best_other": 0.7166481614112905,
+            "median": 0.4100056026877948
+        },
+        {
+            "q": "largest river in South America by volume",
+            "title": "Amazon River",
+            "target": 0.7856735587120112,
+            "rank": 1,
+            "above_default": 80,
+            "best_other": 0.7071526821164691,
+            "median": 0.4073572898387433
+        },
+        {
+            "q": "programming language named after Monty Python",
+            "title": "Python (programming language)",
+            "target": 0.7957623242068987,
+            "rank": 1,
+            "above_default": 96,
+            "best_other": 0.7113892820063475,
+            "median": 0.45480784773777094
+        },
+        {
+            "q": "biggest planet in our solar system",
+            "title": "Jupiter",
+            "target": 0.8111623767364737,
+            "rank": 1,
+            "above_default": 78,
+            "best_other": 0.7762100331845893,
+            "median": 0.43614430725491626
+        },
+        {
+            "q": "frozen continent at the south pole",
+            "title": "Antarctica",
+            "target": 0.7791931629180908,
+            "rank": 2,
+            "above_default": 160,
+            "best_other": 0.7869850631649814,
+            "median": 0.4515484504170788
+        },
+        {
+            "q": "coloured arc in the sky after rain",
+            "title": "Rainbow",
+            "target": 0.7782863610472194,
+            "rank": 1,
+            "above_default": 58,
+            "best_other": 0.6855562141869208,
+            "median": 0.4344705174705542
+        },
+        {
+            "q": "flightless birds that swim in cold southern seas",
+            "title": "Penguin",
+            "target": 0.6915073350356826,
+            "rank": 2,
+            "above_default": 30,
+            "best_other": 0.6937041075913902,
+            "median": 0.3942887191255464
+        },
+        {
+            "q": "Japanese vinegared rice with raw fish",
+            "title": "Sushi",
+            "target": 0.7531152963638306,
+            "rank": 1,
+            "above_default": 40,
+            "best_other": 0.7063161309769088,
+            "median": 0.4189875299038708
+        },
+        {
+            "q": "disease spread by mosquito bites",
+            "title": "Malaria",
+            "target": 0.7586791515350342,
+            "rank": 1,
+            "above_default": 37,
+            "best_other": 0.6799107789993286,
+            "median": 0.41686784352143286
+        },
+        {
+            "q": "the red planet",
+            "title": "Mars",
+            "target": 0.6811010051429883,
+            "rank": 2,
+            "above_default": 51,
+            "best_other": 0.6819648742675781,
+            "median": 0.4554605118118886
+        },
+        {
+            "q": "slow river of ice moving down a valley",
+            "title": "Glacier",
+            "target": 0.6849616137215602,
+            "rank": 1,
+            "above_default": 24,
+            "best_other": 0.6778431928800612,
+            "median": 0.42243259348603834
+        },
+        {
+            "q": "spinning column of air that touches the ground",
+            "title": "Tornado",
+            "target": 0.5738705992698669,
+            "rank": 151,
+            "above_default": 46,
+            "best_other": 0.6900764107704163,
+            "median": 0.444759395406211
+        },
+        {
+            "q": "alcoholic drink made from fermented grapes",
+            "title": "Wine",
+            "target": 0.7530631570182362,
+            "rank": 1,
+            "above_default": 34,
+            "best_other": 0.7444656935015748,
+            "median": 0.4095347496732089
+        },
+        {
+            "q": "two-wheeled vehicle you pedal",
+            "title": "Bicycle",
+            "target": 0.8014571666717529,
+            "rank": 1,
+            "above_default": 44,
+            "best_other": 0.7761709921410979,
+            "median": 0.42174749076366425
+        },
+        {
+            "q": "machine with movable type invented in the 15th century",
+            "title": "Printing press",
+            "target": 0.5760184779156172,
+            "rank": 187,
+            "above_default": 89,
+            "best_other": 0.6813031028924535,
+            "median": 0.46070035270438503
+        },
+        {
+            "q": "global war from 1939 to 1945",
+            "title": "World War II",
+            "target": 0.8202707171440125,
+            "rank": 1,
+            "above_default": 190,
+            "best_other": 0.765911340713501,
+            "median": 0.4563687307721248
+        },
+        {
+            "q": "Scandinavian seafarers who raided Europe",
+            "title": "Vikings",
+            "target": 0.7347404360771179,
+            "rank": 2,
+            "above_default": 58,
+            "best_other": 0.7489544898894747,
+            "median": 0.4234089490264093
+        },
+        {
+            "q": "Japanese warrior class",
+            "title": "Samurai",
+            "target": 0.7095370715580638,
+            "rank": 1,
+            "above_default": 14,
+            "best_other": 0.669899026745501,
+            "median": 0.4066067012132323
+        },
+        {
+            "q": "music style born in New Orleans with improvisation",
+            "title": "Jazz",
+            "target": 0.6265881657600447,
+            "rank": 8,
+            "above_default": 22,
+            "best_other": 0.6587030698414957,
+            "median": 0.3817526172546979
+        },
+        {
+            "q": "band from Liverpool with John, Paul, George and Ringo",
+            "title": "The Beatles",
+            "target": 0.7870959874122142,
+            "rank": 1,
+            "above_default": 58,
+            "best_other": 0.7037080316630621,
+            "median": 0.40075747372977377
+        },
+        {
+            "q": "composer of the Magic Flute who died young",
+            "title": "Wolfgang Amadeus Mozart",
+            "target": 0.7022234201431274,
+            "rank": 1,
+            "above_default": 65,
+            "best_other": 0.6917237043380737,
+            "median": 0.3985560982347479
+        },
+        {
+            "q": "sweet food made from cacao",
+            "title": "Chocolate",
+            "target": 0.7680366268168878,
+            "rank": 1,
+            "above_default": 50,
+            "best_other": 0.7169900154170402,
+            "median": 0.4032072186948608
+        },
+        {
+            "q": "Australian animal that hops and carries its baby in a pouch",
+            "title": "Kangaroo",
+            "target": 0.6440615633781165,
+            "rank": 6,
+            "above_default": 26,
+            "best_other": 0.7398108088857431,
+            "median": 0.3952211228144845
+        },
+        {
+            "q": "black and white bear that eats bamboo",
+            "title": "Giant panda",
+            "target": 0.72473341745735,
+            "rank": 1,
+            "above_default": 18,
+            "best_other": 0.692167243128039,
+            "median": 0.3802821749532872
+        },
+        {
+            "q": "underwater structures built by tiny animals in warm seas",
+            "title": "Coral reef",
+            "target": 0.6715881824493408,
+            "rank": 3,
+            "above_default": 99,
+            "best_other": 0.6890293770449994,
+            "median": 0.4374616127450664
+        }
+    ],
+    "nomic": [
+        {
+            "q": "when did the wall that split the German capital come down",
+            "title": "Berlin Wall",
+            "target": 0.8085855727544783,
+            "rank": 1,
+            "above_default": 177,
+            "best_other": 0.7259771497222364,
+            "median": 0.44018230797522745
+        },
+        {
+            "q": "how do plants turn sunlight into food",
+            "title": "Photosynthesis",
+            "target": 0.7666688700515719,
+            "rank": 1,
+            "above_default": 153,
+            "best_other": 0.7383024692535453,
+            "median": 0.4507270812122179
+        },
+        {
+            "q": "highest mountain on the border of Nepal",
+            "title": "Mount Everest",
+            "target": 0.691133519742892,
+            "rank": 2,
+            "above_default": 30,
+            "best_other": 0.7392688393592834,
+            "median": 0.40481314985816297
+        },
+        {
+            "q": "physicist who came up with relativity",
+            "title": "Albert Einstein",
+            "target": 0.8283713562267343,
+            "rank": 1,
+            "above_default": 215,
+            "best_other": 0.7556849201635948,
+            "median": 0.4393490814774689
+        },
+        {
+            "q": "first antibiotic discovered from mould",
+            "title": "Penicillin",
+            "target": 0.5726108551025391,
+            "rank": 36,
+            "above_default": 9,
+            "best_other": 0.6703776121139526,
+            "median": 0.43470289396929346
+        },
+        {
+            "q": "giant sea wave after an undersea earthquake",
+            "title": "Tsunami",
+            "target": 0.6321944186745414,
+            "rank": 5,
+            "above_default": 11,
+            "best_other": 0.6650152008230951,
+            "median": 0.41481430574698186
+        },
+        {
+            "q": "insects that make honey and live in hives",
+            "title": "Honey bee",
+            "target": 0.7773506045341492,
+            "rank": 2,
+            "above_default": 148,
+            "best_other": 0.7840714921993921,
+            "median": 0.4808901614343974
+        },
+        {
+            "q": "board game with kings, queens and checkmate",
+            "title": "Chess",
+            "target": 0.7279819900973433,
+            "rank": 1,
+            "above_default": 37,
+            "best_other": 0.6881717648557357,
+            "median": 0.45124259155177415
+        },
+        {
+            "q": "decentralised digital currency with no bank",
+            "title": "Bitcoin",
+            "target": 0.5926524753959472,
+            "rank": 9,
+            "above_default": 7,
+            "best_other": 0.6384549356427929,
+            "median": 0.4107122666062527
+        },
+        {
+            "q": "injection that trains the immune system against a disease",
+            "title": "Vaccine",
+            "target": 0.7296858429908752,
+            "rank": 3,
+            "above_default": 49,
+            "best_other": 0.7899646994461033,
+            "median": 0.46725163559986205
+        },
+        {
+            "q": "region of space where light cannot escape gravity",
+            "title": "Black hole",
+            "target": 0.6255259550637713,
+            "rank": 14,
+            "above_default": 38,
+            "best_other": 0.6730778801897991,
+            "median": 0.46620609269069857
+        },
+        {
+            "q": "flat Italian dish with tomato and cheese baked in an oven",
+            "title": "Pizza",
+            "target": 0.6702600917297632,
+            "rank": 2,
+            "above_default": 6,
+            "best_other": 0.6967612504959106,
+            "median": 0.38431011140346527
+        },
+        {
+            "q": "drink brewed from roasted beans",
+            "title": "Coffee",
+            "target": 0.6729645327946834,
+            "rank": 1,
+            "above_default": 16,
+            "best_other": 0.6500228255973574,
+            "median": 0.4196064135607095
+        },
+        {
+            "q": "ship that sank in 1912 after hitting an iceberg",
+            "title": "Titanic",
+            "target": 0.7507516593189156,
+            "rank": 1,
+            "above_default": 38,
+            "best_other": 0.7090018044712361,
+            "median": 0.43810404936547026
+        },
+        {
+            "q": "molecule that carries genetic instructions",
+            "title": "DNA",
+            "target": 0.7395048361869111,
+            "rank": 1,
+            "above_default": 47,
+            "best_other": 0.7226813650930338,
+            "median": 0.4640328575382491
+        },
+        {
+            "q": "author of Hamlet and Romeo and Juliet",
+            "title": "William Shakespeare",
+            "target": 0.7598611402677184,
+            "rank": 1,
+            "above_default": 162,
+            "best_other": 0.7334523955910087,
+            "median": 0.4013869939786786
+        },
+        {
+            "q": "largest river in South America by volume",
+            "title": "Amazon River",
+            "target": 0.7934896349906921,
+            "rank": 1,
+            "above_default": 48,
+            "best_other": 0.7219186590958454,
+            "median": 0.42421621535919884
+        },
+        {
+            "q": "programming language named after Monty Python",
+            "title": "Python (programming language)",
+            "target": 0.7868693578424507,
+            "rank": 1,
+            "above_default": 59,
+            "best_other": 0.702060958804517,
+            "median": 0.46852851101567305
+        },
+        {
+            "q": "biggest planet in our solar system",
+            "title": "Jupiter",
+            "target": 0.8545213769804295,
+            "rank": 1,
+            "above_default": 80,
+            "best_other": 0.7644344849068595,
+            "median": 0.4527778518696785
+        },
+        {
+            "q": "frozen continent at the south pole",
+            "title": "Antarctica",
+            "target": 0.7497171386992082,
+            "rank": 2,
+            "above_default": 89,
+            "best_other": 0.7896205892819697,
+            "median": 0.45732453592644706
+        },
+        {
+            "q": "coloured arc in the sky after rain",
+            "title": "Rainbow",
+            "target": 0.7191794682038161,
+            "rank": 1,
+            "above_default": 24,
+            "best_other": 0.638780636932774,
+            "median": 0.4528323305097448
+        },
+        {
+            "q": "flightless birds that swim in cold southern seas",
+            "title": "Penguin",
+            "target": 0.6664192080497742,
+            "rank": 4,
+            "above_default": 66,
+            "best_other": 0.686585009098053,
+            "median": 0.45110938098710507
+        },
+        {
+            "q": "Japanese vinegared rice with raw fish",
+            "title": "Sushi",
+            "target": 0.7090375461313918,
+            "rank": 1,
+            "above_default": 4,
+            "best_other": 0.638116221484061,
+            "median": 0.39411521229662094
+        },
+        {
+            "q": "disease spread by mosquito bites",
+            "title": "Malaria",
+            "target": 0.7907546758651733,
+            "rank": 1,
+            "above_default": 74,
+            "best_other": 0.709032416343689,
+            "median": 0.4569955238252209
+        },
+        {
+            "q": "the red planet",
+            "title": "Mars",
+            "target": 0.667953610420227,
+            "rank": 3,
+            "above_default": 35,
+            "best_other": 0.7037668824195862,
+            "median": 0.4590367252208991
+        },
+        {
+            "q": "slow river of ice moving down a valley",
+            "title": "Glacier",
+            "target": 0.6003518820228478,
+            "rank": 11,
+            "above_default": 11,
+            "best_other": 0.634829044342041,
+            "median": 0.4513905942440033
+        },
+        {
+            "q": "spinning column of air that touches the ground",
+            "title": "Tornado",
+            "target": 0.5697284597320292,
+            "rank": 57,
+            "above_default": 7,
+            "best_other": 0.6626233659611138,
+            "median": 0.45451116290755134
+        },
+        {
+            "q": "alcoholic drink made from fermented grapes",
+            "title": "Wine",
+            "target": 0.7503210529780705,
+            "rank": 1,
+            "above_default": 33,
+            "best_other": 0.7474530267012477,
+            "median": 0.43123197788246953
+        },
+        {
+            "q": "two-wheeled vehicle you pedal",
+            "title": "Bicycle",
+            "target": 0.6992631554603627,
+            "rank": 1,
+            "above_default": 19,
+            "best_other": 0.6879548244449502,
+            "median": 0.4436076399976588
+        },
+        {
+            "q": "machine with movable type invented in the 15th century",
+            "title": "Printing press",
+            "target": 0.5876686923306411,
+            "rank": 75,
+            "above_default": 41,
+            "best_other": 0.6438755584918132,
+            "median": 0.46272652540704706
+        },
+        {
+            "q": "global war from 1939 to 1945",
+            "title": "World War II",
+            "target": 0.8629963573512163,
+            "rank": 1,
+            "above_default": 502,
+            "best_other": 0.7871468067169245,
+            "median": 0.4983155874892107
+        },
+        {
+            "q": "Scandinavian seafarers who raided Europe",
+            "title": "Vikings",
+            "target": 0.7626205682754517,
+            "rank": 1,
+            "above_default": 73,
+            "best_other": 0.7366593103605307,
+            "median": 0.4217727058598417
+        },
+        {
+            "q": "Japanese warrior class",
+            "title": "Samurai",
+            "target": 0.7633810498345538,
+            "rank": 1,
+            "above_default": 22,
+            "best_other": 0.7189910411834768,
+            "median": 0.4262341429467218
+        },
+        {
+            "q": "music style born in New Orleans with improvisation",
+            "title": "Jazz",
+            "target": 0.6605984169423181,
+            "rank": 2,
+            "above_default": 30,
+            "best_other": 0.680652222711114,
+            "median": 0.4233765785964295
+        },
+        {
+            "q": "band from Liverpool with John, Paul, George and Ringo",
+            "title": "The Beatles",
+            "target": 0.8115442023820636,
+            "rank": 1,
+            "above_default": 176,
+            "best_other": 0.7358788409305322,
+            "median": 0.4311496209413576
+        },
+        {
+            "q": "composer of the Magic Flute who died young",
+            "title": "Wolfgang Amadeus Mozart",
+            "target": 0.7129807731566522,
+            "rank": 2,
+            "above_default": 149,
+            "best_other": 0.7185747362882264,
+            "median": 0.39897601916203296
+        },
+        {
+            "q": "sweet food made from cacao",
+            "title": "Chocolate",
+            "target": 0.7639704574337741,
+            "rank": 1,
+            "above_default": 26,
+            "best_other": 0.7263866879459232,
+            "median": 0.4033463866515873
+        },
+        {
+            "q": "Australian animal that hops and carries its baby in a pouch",
+            "title": "Kangaroo",
+            "target": 0.6732509136199951,
+            "rank": 5,
+            "above_default": 83,
+            "best_other": 0.7871612310409546,
+            "median": 0.4577991949854562
+        },
+        {
+            "q": "black and white bear that eats bamboo",
+            "title": "Giant panda",
+            "target": 0.6961554884910633,
+            "rank": 1,
+            "above_default": 7,
+            "best_other": 0.6502701819265105,
+            "median": 0.4078276455402403
+        },
+        {
+            "q": "underwater structures built by tiny animals in warm seas",
+            "title": "Coral reef",
+            "target": 0.6627898611301113,
+            "rank": 2,
+            "above_default": 103,
+            "best_other": 0.6677574315360317,
+            "median": 0.4695727210979288
+        }
+    ],
+    "nomic_unprefixed": [
+        {
+            "q": "when did the wall that split the German capital come down",
+            "title": "Berlin Wall",
+            "target": 0.7954621552068641,
+            "rank": 1,
+            "above_default": 62,
+            "best_other": 0.6922934674286966,
+            "median": 0.4077581641746131
+        },
+        {
+            "q": "how do plants turn sunlight into food",
+            "title": "Photosynthesis",
+            "target": 0.7492272331619799,
+            "rank": 1,
+            "above_default": 64,
+            "best_other": 0.7142008415163821,
+            "median": 0.4211474288535817
+        },
+        {
+            "q": "highest mountain on the border of Nepal",
+            "title": "Mount Everest",
+            "target": 0.688097061642742,
+            "rank": 2,
+            "above_default": 17,
+            "best_other": 0.7470214812172356,
+            "median": 0.38652180272583125
+        },
+        {
+            "q": "physicist who came up with relativity",
+            "title": "Albert Einstein",
+            "target": 0.8251398064071205,
+            "rank": 1,
+            "above_default": 147,
+            "best_other": 0.7503425926174279,
+            "median": 0.44140487385462446
+        },
+        {
+            "q": "first antibiotic discovered from mould",
+            "title": "Penicillin",
+            "target": 0.5636732578277588,
+            "rank": 13,
+            "above_default": 3,
+            "best_other": 0.6582257747650146,
+            "median": 0.4093828797340393
+        },
+        {
+            "q": "giant sea wave after an undersea earthquake",
+            "title": "Tsunami",
+            "target": 0.6650980511366171,
+            "rank": 3,
+            "above_default": 16,
+            "best_other": 0.6875060014430298,
+            "median": 0.4097630774829665
+        },
+        {
+            "q": "insects that make honey and live in hives",
+            "title": "Honey bee",
+            "target": 0.7840727229031711,
+            "rank": 2,
+            "above_default": 129,
+            "best_other": 0.7983141661695271,
+            "median": 0.47293650802392384
+        },
+        {
+            "q": "board game with kings, queens and checkmate",
+            "title": "Chess",
+            "target": 0.7531365457935983,
+            "rank": 1,
+            "above_default": 37,
+            "best_other": 0.7002205670011394,
+            "median": 0.4480345202717668
+        },
+        {
+            "q": "decentralised digital currency with no bank",
+            "title": "Bitcoin",
+            "target": 0.5952752828598022,
+            "rank": 4,
+            "above_default": 2,
+            "best_other": 0.6323954901223835,
+            "median": 0.37439172527778175
+        },
+        {
+            "q": "injection that trains the immune system against a disease",
+            "title": "Vaccine",
+            "target": 0.7333766222000122,
+            "rank": 3,
+            "above_default": 31,
+            "best_other": 0.7860383029591534,
+            "median": 0.4494891598668447
+        },
+        {
+            "q": "region of space where light cannot escape gravity",
+            "title": "Black hole",
+            "target": 0.6104271593817224,
+            "rank": 10,
+            "above_default": 13,
+            "best_other": 0.6562250461444242,
+            "median": 0.43367572524091647
+        },
+        {
+            "q": "flat Italian dish with tomato and cheese baked in an oven",
+            "title": "Pizza",
+            "target": 0.6450517965868654,
+            "rank": 2,
+            "above_default": 3,
+            "best_other": 0.6486560106277466,
+            "median": 0.3470455401967544
+        },
+        {
+            "q": "drink brewed from roasted beans",
+            "title": "Coffee",
+            "target": 0.6590545583898403,
+            "rank": 1,
+            "above_default": 4,
+            "best_other": 0.6204404091310057,
+            "median": 0.38712231670352293
+        },
+        {
+            "q": "ship that sank in 1912 after hitting an iceberg",
+            "title": "Titanic",
+            "target": 0.7658389806747491,
+            "rank": 1,
+            "above_default": 23,
+            "best_other": 0.6983994661807709,
+            "median": 0.422876884169771
+        },
+        {
+            "q": "molecule that carries genetic instructions",
+            "title": "DNA",
+            "target": 0.7325372099876404,
+            "rank": 2,
+            "above_default": 26,
+            "best_other": 0.7440568804740906,
+            "median": 0.43400729095892443
+        },
+        {
+            "q": "author of Hamlet and Romeo and Juliet",
+            "title": "William Shakespeare",
+            "target": 0.7600002741813836,
+            "rank": 1,
+            "above_default": 123,
+            "best_other": 0.7317083754191847,
+            "median": 0.4062508884817899
+        },
+        {
+            "q": "largest river in South America by volume",
+            "title": "Amazon River",
+            "target": 0.7795259952545166,
+            "rank": 1,
+            "above_default": 16,
+            "best_other": 0.6894262618168449,
+            "median": 0.37654345684939805
+        },
+        {
+            "q": "programming language named after Monty Python",
+            "title": "Python (programming language)",
+            "target": 0.7964307301814669,
+            "rank": 1,
+            "above_default": 23,
+            "best_other": 0.7059339740774,
+            "median": 0.451682546935212
+        },
+        {
+            "q": "biggest planet in our solar system",
+            "title": "Jupiter",
+            "target": 0.8311919918301142,
+            "rank": 1,
+            "above_default": 18,
+            "best_other": 0.7382524765579429,
+            "median": 0.3932282924652184
+        },
+        {
+            "q": "frozen continent at the south pole",
+            "title": "Antarctica",
+            "target": 0.7460749896720071,
+            "rank": 2,
+            "above_default": 23,
+            "best_other": 0.7822431921958979,
+            "median": 0.403728380244181
+        },
+        {
+            "q": "coloured arc in the sky after rain",
+            "title": "Rainbow",
+            "target": 0.7156737064025914,
+            "rank": 1,
+            "above_default": 15,
+            "best_other": 0.6502057120142691,
+            "median": 0.4231193134380048
+        },
+        {
+            "q": "flightless birds that swim in cold southern seas",
+            "title": "Penguin",
+            "target": 0.6669622659683228,
+            "rank": 3,
+            "above_default": 27,
+            "best_other": 0.6877411007881165,
+            "median": 0.4228521929471385
+        },
+        {
+            "q": "Japanese vinegared rice with raw fish",
+            "title": "Sushi",
+            "target": 0.7112188975112648,
+            "rank": 1,
+            "above_default": 2,
+            "best_other": 0.6009309112748256,
+            "median": 0.37697959507996326
+        },
+        {
+            "q": "disease spread by mosquito bites",
+            "title": "Malaria",
+            "target": 0.783019827784291,
+            "rank": 1,
+            "above_default": 47,
+            "best_other": 0.6791227268649785,
+            "median": 0.41902205972531725
+        },
+        {
+            "q": "the red planet",
+            "title": "Mars",
+            "target": 0.6477323384444523,
+            "rank": 2,
+            "above_default": 6,
+            "best_other": 0.6589532697824687,
+            "median": 0.3863545012748715
+        },
+        {
+            "q": "slow river of ice moving down a valley",
+            "title": "Glacier",
+            "target": 0.5982897994863791,
+            "rank": 3,
+            "above_default": 2,
+            "best_other": 0.6097334623336792,
+            "median": 0.3983007520440931
+        },
+        {
+            "q": "spinning column of air that touches the ground",
+            "title": "Tornado",
+            "target": 0.574744002566815,
+            "rank": 27,
+            "above_default": 9,
+            "best_other": 0.6390554739170747,
+            "median": 0.43314439010492634
+        },
+        {
+            "q": "alcoholic drink made from fermented grapes",
+            "title": "Wine",
+            "target": 0.7427949905395508,
+            "rank": 1,
+            "above_default": 18,
+            "best_other": 0.7230355473714466,
+            "median": 0.40231183171277296
+        },
+        {
+            "q": "two-wheeled vehicle you pedal",
+            "title": "Bicycle",
+            "target": 0.6872856244189292,
+            "rank": 1,
+            "above_default": 6,
+            "best_other": 0.6516957256249902,
+            "median": 0.4175156814990348
+        },
+        {
+            "q": "machine with movable type invented in the 15th century",
+            "title": "Printing press",
+            "target": 0.602208459245664,
+            "rank": 50,
+            "above_default": 52,
+            "best_other": 0.6674539048997327,
+            "median": 0.46354780252893807
+        },
+        {
+            "q": "global war from 1939 to 1945",
+            "title": "World War II",
+            "target": 0.8422311701385237,
+            "rank": 1,
+            "above_default": 197,
+            "best_other": 0.7927836775779781,
+            "median": 0.4569031353396195
+        },
+        {
+            "q": "Scandinavian seafarers who raided Europe",
+            "title": "Vikings",
+            "target": 0.7501675114085532,
+            "rank": 1,
+            "above_default": 13,
+            "best_other": 0.6993341862758509,
+            "median": 0.3831815088743422
+        },
+        {
+            "q": "Japanese warrior class",
+            "title": "Samurai",
+            "target": 0.7604052567240456,
+            "rank": 1,
+            "above_default": 15,
+            "best_other": 0.698264634816094,
+            "median": 0.422888202157312
+        },
+        {
+            "q": "music style born in New Orleans with improvisation",
+            "title": "Jazz",
+            "target": 0.681954998853506,
+            "rank": 1,
+            "above_default": 30,
+            "best_other": 0.6743112407419458,
+            "median": 0.4354456643895806
+        },
+        {
+            "q": "band from Liverpool with John, Paul, George and Ringo",
+            "title": "The Beatles",
+            "target": 0.8022329925159831,
+            "rank": 1,
+            "above_default": 85,
+            "best_other": 0.709290963965117,
+            "median": 0.41393468296907
+        },
+        {
+            "q": "composer of the Magic Flute who died young",
+            "title": "Wolfgang Amadeus Mozart",
+            "target": 0.6962911460139574,
+            "rank": 1,
+            "above_default": 72,
+            "best_other": 0.6931180977628942,
+            "median": 0.39025125416379614
+        },
+        {
+            "q": "sweet food made from cacao",
+            "title": "Chocolate",
+            "target": 0.7410581332760496,
+            "rank": 1,
+            "above_default": 13,
+            "best_other": 0.7023019999951723,
+            "median": 0.38076171634322364
+        },
+        {
+            "q": "Australian animal that hops and carries its baby in a pouch",
+            "title": "Kangaroo",
+            "target": 0.6641185679506414,
+            "rank": 3,
+            "above_default": 35,
+            "best_other": 0.7660192707788523,
+            "median": 0.43578348021688057
+        },
+        {
+            "q": "black and white bear that eats bamboo",
+            "title": "Giant panda",
+            "target": 0.7161234617233327,
+            "rank": 1,
+            "above_default": 11,
+            "best_other": 0.6665126283779893,
+            "median": 0.38670967181657245
+        },
+        {
+            "q": "underwater structures built by tiny animals in warm seas",
+            "title": "Coral reef",
+            "target": 0.6660206913370516,
+            "rank": 1,
+            "above_default": 88,
+            "best_other": 0.6581897335705085,
+            "median": 0.46285184885727026
+        }
+    ]
+}

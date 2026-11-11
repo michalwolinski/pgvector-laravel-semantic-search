@@ -1,0 +1,14 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "yoda_style": {
+            "equal": true,
+            "identical": true,
+            "less_and_greater": false,
+            "always_move_variable": true
+        },
+        "fully_qualified_strict_types": {
+            "import_symbols": false
+        }
+    }
+}

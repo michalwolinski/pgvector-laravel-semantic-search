@@ -1,0 +1,13 @@
+First run of the same measurement, typed into psql in the session before scripts/index-build.sql existed.
+Statements in order: create table copy_a; create index; insert 100,000 rows; create table copy_b; insert; create index
+(512MB); drop index; set maintenance_work_mem = '64MB'; create index; ...
+Time: 7.331 ms
+Time: 0.655 ms
+Time: 223095.296 ms (03:43.095)
+Time: 1.832 ms
+Time: 805.907 ms
+Time: 16351.144 ms (00:16.351)
+Time: 16.373 ms
+Time: 0.270 ms
+NOTICE:  hnsw graph no longer fits into maintenance_work_mem after 28371 tuples
+Time: 57802.312 ms (00:57.802)

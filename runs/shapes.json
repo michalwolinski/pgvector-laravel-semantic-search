@@ -1,0 +1,21 @@
+{
+    "limit_10": {
+        "median_ms": 2.822,
+        "median_rows": 10,
+        "max_rows": 10,
+        "used_hnsw": 50
+    },
+    "no_limit": {
+        "median_ms": 36.5145,
+        "median_rows": 286.5,
+        "max_rows": 1871,
+        "used_hnsw": 0
+    },
+    "paginate_count": {
+        "median_ms": 68.407,
+        "median_rows": 1,
+        "max_rows": 1,
+        "used_hnsw": 0
+    },
+    "avg_embedding_text_bytes": 4721.371
+}
