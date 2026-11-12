@@ -14,7 +14,7 @@ from pathlib import Path
 root = Path(__file__).resolve().parent.parent
 article = Path(sys.argv[1]).read_text()
 text = html.unescape(re.sub(r'<[^>]+>', '', article))
-runs = {name: json.loads((root / 'runs' / f'{name}.json').read_text()) for name in ['recall', 'teams', 'threshold', 'thresholds', 'shapes', 'remedy']}
+runs = {name: json.loads((root / 'runs' / f'{name}.json').read_text()) for name in ['recall', 'teams', 'threshold', 'thresholds', 'shapes', 'remedy', 'layouts', 'analyze-flips']}
 failures = []
 checked = 0
 
@@ -121,6 +121,34 @@ expect(f'{runs["remedy"]["teams_1_to_11"][1]["searches_out_of_order"]} of 220 re
 expect(f'2 to 3 ms per row', 'insert rate')
 assert 2 <= t1[2] / 100 <= 3 and 2 <= insert_indexed / 100 <= 3.1
 expect(f'up to {round((insert_indexed / t1[2] - 1) * 100)}% slower', 'run 2 vs run 1')
+
+# partial indexes and partitions
+lay = runs['layouts']['layouts']
+def lrow(label, team, key):
+    r = lay[key]
+    return f'{label}{team}{r["rows"]}{r["recall"] * 100:g}%{r["median_ms"]:.1f} ms'
+expect(lrow('Shared table, one HNSW index', 8, 'shared_team_8'), 'layout shared 8')
+expect(lrow('Shared table plus create index … where team_id = 8', 8, 'partial_index_team_8'), 'layout partial 8')
+expect(lrow('Partitioned, team 8 has its own partition', 8, 'partitioned_team_8'), 'layout partition 8')
+expect(lrow('Partitioned, team 2 has its own partition', 2, 'partitioned_team_2'), 'layout partition 2')
+expect(lrow('Partitioned, team 13 in the default partition', 13, 'partitioned_team_13'), 'layout default 13')
+expect(lrow('Same, with hnsw.iterative_scan = relaxed_order', 13, 'partitioned_relaxed_team_13'), 'layout relaxed 13')
+own = [lay[f'partitioned_team_{t}'] for t in [1, 2, 4, 8, 11]]
+assert all(r['rows'] == 200 for r in own)
+expect(f'at {min(r["recall"] for r in own) * 100:g}% to {max(r["recall"] for r in own) * 100:g}% recall', 'own partitions recall')
+expect(f'default partition of {lay["default_partition_rows"]:,} rows', 'default partition size')
+expect(f'Team 13 has {lay["team_sizes"]["13"]:,} rows', 'team 13 size')
+expect(f'{lay["team_sizes"]["13"] / lay["default_partition_rows"] * 100:.1f}% of the partition', 'team 13 share')
+assert 'Bitmap' in lay['shared_team_13']['plans'][0]
+assert lay['partitioned_team_12']['rows'] < 50 and lay['partitioned_team_14']['rows'] < 50
+expect(f'{lay["all_teams_partitioned"]["median_ms"]:.1f} ms instead of {lay["all_teams_shared"]["median_ms"]:.1f} ms', 'cross-team time')
+expect(f'recall of {lay["all_teams_partitioned"]["recall"] * 100:g}% instead of {lay["all_teams_shared"]["recall"] * 100:g}%', 'cross-team recall')
+flips = runs['analyze-flips']
+counts = [len(r) for r in flips['runs']]
+expect(f'{", ".join(str(c) for c in counts[:-1])} and {counts[-1]} teams', 'analyze flips')
+sz = flips['sizes_9_to_16']
+expect(f'with {int(sz["11"]):,} and {int(sz["12"]):,} rows', 'flip team sizes')
+assert any(11 in r for r in flips['runs']) and any(11 not in r for r in flips['runs'])
 
 # code blocks: each named file must contain the block's lines, in order
 for block in re.findall(r'<pre><code class="language-(?:php|sql)">(.*?)</code></pre>', article, re.S):

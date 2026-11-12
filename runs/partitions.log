@@ -1,0 +1,41 @@
+Timing is on.
+NOTICE:  table "documents_by_team" does not exist, skipping
+DROP TABLE
+Time: 0.268 ms
+CREATE TABLE
+Time: 2.875 ms
+CREATE TABLE
+Time: 1.503 ms
+CREATE TABLE
+Time: 0.956 ms
+CREATE TABLE
+Time: 0.878 ms
+CREATE TABLE
+Time: 0.781 ms
+CREATE TABLE
+Time: 0.784 ms
+CREATE TABLE
+Time: 0.728 ms
+CREATE TABLE
+Time: 0.827 ms
+CREATE TABLE
+Time: 0.928 ms
+CREATE TABLE
+Time: 0.654 ms
+CREATE TABLE
+Time: 0.609 ms
+CREATE TABLE
+Time: 0.705 ms
+Time: 1.609 ms
+CREATE TABLE
+Time: 0.634 ms
+INSERT 0 100000
+Time: 877.672 ms
+SET
+Time: 0.375 ms
+CREATE INDEX
+Time: 17914.878 ms (00:17.915)
+CREATE INDEX
+Time: 68.281 ms
+ANALYZE
+Time: 166.641 ms

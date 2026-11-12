@@ -11,7 +11,7 @@ use Illuminate\Console\Command;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Facades\DB;
 
-#[Signature('wiki:bench {part : recall|teams|threshold|remedy} {--queries=200}')]
+#[Signature('wiki:bench {part : recall|teams|threshold|remedy|layouts} {--queries=200}')]
 #[Description('Measures recall, filtered search and similarity thresholds against the imported articles; writes runs/<part>.json')]
 final class Bench extends Command
 {
@@ -26,6 +26,7 @@ final class Bench extends Command
             'teams' => $this->teams($queries),
             'threshold' => $this->threshold($queries),
             'remedy' => $this->remedy($queries),
+            'layouts' => $this->layouts($queries),
         };
 
         $result['meta'] = [
@@ -211,6 +212,72 @@ final class Bench extends Command
         }
 
         return ['teams_1_to_11' => $rows];
+    }
+
+    /**
+     * The same team searches on three layouts: the shared table, the shared table plus a partial HNSW index for
+     * team 8, and documents_by_team (scripts/partitions.sql), where teams 1 to 11 have a partition each.
+     *
+     * @param  list<list<float>>  $queries
+     */
+    private function layouts(array $queries): array
+    {
+        $queries = array_slice($queries, 0, 20);
+        $measure = function (string $table, int $team, array $settings = []) use ($queries): array {
+            $returned = 0;
+            $correct = 0;
+            $times = [];
+            $plans = [];
+
+            foreach ($queries as $vector) {
+                $query = DB::table($table)->select('id')->where('team_id', $team)
+                    ->whereVectorSimilarTo('embedding', $vector, minSimilarity: 0.0)->limit(10);
+                $truth = Probe::exact($this->nearest($vector)->where('team_id', $team));
+                $run = Probe::run($query, $settings);
+                $returned += count($run['ids']);
+                $correct += count(array_intersect($run['ids'], $truth));
+                $times[] = $run['ms'];
+                preg_match('/(Index Scan using \w+|Bitmap Heap Scan on \w+|Seq Scan on \w+)/', $run['plan'], $match);
+                $plans[$match[1] ?? 'other'] = true;
+            }
+
+            return ['rows' => $returned, 'recall' => $correct / (10 * count($queries)), 'median_ms' => $this->median($times), 'plans' => array_keys($plans)];
+        };
+
+        $rows = [];
+        DB::statement('create index documents_team8_hnsw on documents using hnsw (embedding vector_cosine_ops) where team_id = 8');
+        DB::statement('analyze documents');
+
+        try {
+            $rows['partial_index_team_8'] = $measure('documents', 8);
+        } finally {
+            DB::statement('drop index documents_team8_hnsw');
+        }
+
+        foreach ([1, 2, 4, 8, 11, 12, 13, 14, 150] as $team) {
+            $rows["shared_team_{$team}"] = $measure('documents', $team);
+            $rows["partitioned_team_{$team}"] = $measure('documents_by_team', $team);
+            $rows["partitioned_relaxed_team_{$team}"] = $measure('documents_by_team', $team, ['hnsw.iterative_scan' => 'relaxed_order']);
+            $this->line($team.' '.json_encode([$rows["shared_team_{$team}"], $rows["partitioned_team_{$team}"]]));
+        }
+
+        $all = function (string $table) use ($queries): array {
+            $correct = 0;
+            $times = [];
+            foreach ($queries as $vector) {
+                $run = Probe::run(DB::table($table)->select('id')->whereVectorSimilarTo('embedding', $vector, minSimilarity: 0.0)->limit(10));
+                $correct += count(array_intersect($run['ids'], Probe::exact($this->nearest($vector))));
+                $times[] = $run['ms'];
+            }
+
+            return ['recall' => $correct / (10 * count($queries)), 'median_ms' => $this->median($times)];
+        };
+        $rows['all_teams_shared'] = $all('documents');
+        $rows['all_teams_partitioned'] = $all('documents_by_team');
+        $rows['default_partition_rows'] = DB::table('documents_by_team_rest')->count();
+        $rows['team_sizes'] = DB::table('documents')->whereIn('team_id', [8, 12, 13, 14])->groupBy('team_id')->selectRaw('team_id, count(*) as size')->pluck('size', 'team_id');
+
+        return ['layouts' => $rows];
     }
 
     /** pgvector's README advice in Laravel terms: nearest ten in a subquery, the distance filter outside it. */

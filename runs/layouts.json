@@ -1,0 +1,250 @@
+{
+    "layouts": {
+        "partial_index_team_8": {
+            "rows": 200,
+            "recall": 0.985,
+            "median_ms": 2.010875,
+            "plans": [
+                "Index Scan using documents_team8_hnsw"
+            ]
+        },
+        "shared_team_1": {
+            "rows": 151,
+            "recall": 0.705,
+            "median_ms": 3.0573335,
+            "plans": [
+                "Index Scan using documents_embedding_vectorindex"
+            ]
+        },
+        "partitioned_team_1": {
+            "rows": 200,
+            "recall": 0.95,
+            "median_ms": 2.9416665,
+            "plans": [
+                "Index Scan using documents_by_team_1_embedding_idx"
+            ]
+        },
+        "partitioned_relaxed_team_1": {
+            "rows": 200,
+            "recall": 0.95,
+            "median_ms": 3.0495004999999997,
+            "plans": [
+                "Index Scan using documents_by_team_1_embedding_idx"
+            ]
+        },
+        "shared_team_2": {
+            "rows": 55,
+            "recall": 0.275,
+            "median_ms": 3.8453545,
+            "plans": [
+                "Index Scan using documents_embedding_vectorindex"
+            ]
+        },
+        "partitioned_team_2": {
+            "rows": 200,
+            "recall": 0.95,
+            "median_ms": 3.4592705,
+            "plans": [
+                "Index Scan using documents_by_team_2_embedding_idx"
+            ]
+        },
+        "partitioned_relaxed_team_2": {
+            "rows": 200,
+            "recall": 0.95,
+            "median_ms": 3.2439165,
+            "plans": [
+                "Index Scan using documents_by_team_2_embedding_idx"
+            ]
+        },
+        "shared_team_4": {
+            "rows": 38,
+            "recall": 0.19,
+            "median_ms": 4.749354500000001,
+            "plans": [
+                "Index Scan using documents_embedding_vectorindex"
+            ]
+        },
+        "partitioned_team_4": {
+            "rows": 200,
+            "recall": 0.98,
+            "median_ms": 3.480396,
+            "plans": [
+                "Index Scan using documents_by_team_4_embedding_idx"
+            ]
+        },
+        "partitioned_relaxed_team_4": {
+            "rows": 200,
+            "recall": 0.98,
+            "median_ms": 2.6649375,
+            "plans": [
+                "Index Scan using documents_by_team_4_embedding_idx"
+            ]
+        },
+        "shared_team_8": {
+            "rows": 14,
+            "recall": 0.07,
+            "median_ms": 4.7643335,
+            "plans": [
+                "Index Scan using documents_embedding_vectorindex"
+            ]
+        },
+        "partitioned_team_8": {
+            "rows": 200,
+            "recall": 1,
+            "median_ms": 4.269166500000001,
+            "plans": [
+                "Seq Scan on documents_by_team_8"
+            ]
+        },
+        "partitioned_relaxed_team_8": {
+            "rows": 200,
+            "recall": 1,
+            "median_ms": 4.210479,
+            "plans": [
+                "Seq Scan on documents_by_team_8"
+            ]
+        },
+        "shared_team_11": {
+            "rows": 200,
+            "recall": 1,
+            "median_ms": 6.289687499999999,
+            "plans": [
+                "Bitmap Heap Scan on documents"
+            ]
+        },
+        "partitioned_team_11": {
+            "rows": 200,
+            "recall": 1,
+            "median_ms": 3.009041,
+            "plans": [
+                "Seq Scan on documents_by_team_11"
+            ]
+        },
+        "partitioned_relaxed_team_11": {
+            "rows": 200,
+            "recall": 1,
+            "median_ms": 2.944479,
+            "plans": [
+                "Seq Scan on documents_by_team_11"
+            ]
+        },
+        "shared_team_12": {
+            "rows": 11,
+            "recall": 0.055,
+            "median_ms": 4.2684165,
+            "plans": [
+                "Index Scan using documents_embedding_vectorindex"
+            ]
+        },
+        "partitioned_team_12": {
+            "rows": 25,
+            "recall": 0.125,
+            "median_ms": 3.789771,
+            "plans": [
+                "Index Scan using documents_by_team_rest_embedding_idx"
+            ]
+        },
+        "partitioned_relaxed_team_12": {
+            "rows": 200,
+            "recall": 0.96,
+            "median_ms": 12.8172505,
+            "plans": [
+                "Index Scan using documents_by_team_rest_embedding_idx"
+            ]
+        },
+        "shared_team_13": {
+            "rows": 200,
+            "recall": 1,
+            "median_ms": 5.3797295,
+            "plans": [
+                "Bitmap Heap Scan on documents"
+            ]
+        },
+        "partitioned_team_13": {
+            "rows": 20,
+            "recall": 0.1,
+            "median_ms": 3.979937,
+            "plans": [
+                "Index Scan using documents_by_team_rest_embedding_idx"
+            ]
+        },
+        "partitioned_relaxed_team_13": {
+            "rows": 200,
+            "recall": 0.96,
+            "median_ms": 8.985812500000002,
+            "plans": [
+                "Index Scan using documents_by_team_rest_embedding_idx"
+            ]
+        },
+        "shared_team_14": {
+            "rows": 200,
+            "recall": 1,
+            "median_ms": 4.698792,
+            "plans": [
+                "Bitmap Heap Scan on documents"
+            ]
+        },
+        "partitioned_team_14": {
+            "rows": 23,
+            "recall": 0.115,
+            "median_ms": 3.0839165,
+            "plans": [
+                "Index Scan using documents_by_team_rest_embedding_idx"
+            ]
+        },
+        "partitioned_relaxed_team_14": {
+            "rows": 200,
+            "recall": 0.95,
+            "median_ms": 10.026,
+            "plans": [
+                "Index Scan using documents_by_team_rest_embedding_idx"
+            ]
+        },
+        "shared_team_150": {
+            "rows": 200,
+            "recall": 1,
+            "median_ms": 2.405729,
+            "plans": [
+                "Bitmap Heap Scan on documents"
+            ]
+        },
+        "partitioned_team_150": {
+            "rows": 200,
+            "recall": 1,
+            "median_ms": 2.279813,
+            "plans": [
+                "Bitmap Heap Scan on documents_by_team_rest"
+            ]
+        },
+        "partitioned_relaxed_team_150": {
+            "rows": 200,
+            "recall": 1,
+            "median_ms": 2.2261455000000003,
+            "plans": [
+                "Bitmap Heap Scan on documents_by_team_rest"
+            ]
+        },
+        "all_teams_shared": {
+            "recall": 0.94,
+            "median_ms": 4.506208
+        },
+        "all_teams_partitioned": {
+            "recall": 0.97,
+            "median_ms": 11.2057915
+        },
+        "default_partition_rows": 48802,
+        "team_sizes": {
+            "8": 2125,
+            "12": 1426,
+            "13": 1297,
+            "14": 1234
+        }
+    },
+    "meta": {
+        "queries": 20,
+        "pgvector": "0.8.7",
+        "postgres": "18.6 (Debian 18.6-1.pgdg13+2)",
+        "rows": 100000,
+        "at": "2026-11-12T08:12:37+00:00"
+    }
+}
