@@ -14,7 +14,7 @@ from pathlib import Path
 root = Path(__file__).resolve().parent.parent
 article = Path(sys.argv[1]).read_text()
 text = html.unescape(re.sub(r'<[^>]+>', '', article))
-runs = {name: json.loads((root / 'runs' / f'{name}.json').read_text()) for name in ['recall', 'teams', 'threshold', 'thresholds', 'shapes', 'remedy', 'layouts', 'analyze-flips']}
+runs = {name: json.loads((root / 'runs' / f'{name}.json').read_text()) for name in ['recall', 'teams', 'threshold', 'thresholds', 'shapes', 'remedy', 'layouts', 'analyze-flips', 'combined']}
 failures = []
 checked = 0
 
@@ -144,11 +144,20 @@ assert lay['partitioned_team_12']['rows'] < 50 and lay['partitioned_team_14']['r
 expect(f'{lay["all_teams_partitioned"]["median_ms"]:.1f} ms instead of {lay["all_teams_shared"]["median_ms"]:.1f} ms', 'cross-team time')
 expect(f'recall of {lay["all_teams_partitioned"]["recall"] * 100:g}% instead of {lay["all_teams_shared"]["recall"] * 100:g}%', 'cross-team recall')
 flips = runs['analyze-flips']
-counts = [len(r) for r in flips['runs']]
-expect(f'{", ".join(str(c) for c in counts[:-1])} and {counts[-1]} teams', 'analyze flips')
+r = flips['runs']
+expect(f'I ran ANALYZE {len(r)} times in a row', 'analyze runs')
+expect(f'between {min(len(x) for x in r)} and {max(len(x) for x in r)} teams, in {len({tuple(x) for x in r})} different sets', 'analyze sets')
 sz = flips['sizes_9_to_16']
-expect(f'with {int(sz["11"]):,} and {int(sz["12"]):,} rows', 'flip team sizes')
-assert any(11 in r for r in flips['runs']) and any(11 not in r for r in flips['runs'])
+expect(f'Team 11, with {int(sz["11"]):,} rows, went to HNSW after {sum(11 in x for x in r)} of the {len(r)} runs, team 12, with {int(sz["12"]):,}, after {sum(12 in x for x in r)}', 'teams 11 and 12')
+st = flips['statistics_1000']
+assert len({tuple(x) for x in st}) == 1
+expect(f'the same {len(st[0])} teams went to HNSW in all {len(st)} runs', 'statistics 1000')
+comb = runs['combined']['teams']
+assert len(comb) == 200
+expect(f'{sum(x["rows"] for x in comb):,} of 20,000', 'combined rows')
+expect(f'at least {min(x["recall"] for x in comb) * 100:g}% for every team and {sum(x["recall"] for x in comb) / 200 * 100:.1f}% on average', 'combined recall')
+slow = max(comb, key=lambda x: x['median_ms'])
+expect(f'team {slow["team_id"]} took a median of {slow["median_ms"]:.1f} ms', 'combined slowest')
 
 # code blocks: each named file must contain the block's lines, in order
 for block in re.findall(r'<pre><code class="language-(?:php|sql)">(.*?)</code></pre>', article, re.S):

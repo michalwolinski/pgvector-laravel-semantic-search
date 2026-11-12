@@ -1,0 +1,30 @@
+ANALYZE 1: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 2: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 3: 12 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11,12
+ANALYZE 4: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 5: 12 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11,12
+ANALYZE 6: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 7: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,12
+ANALYZE 8: 12 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11,12
+ANALYZE 9: 12 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11,12
+ANALYZE 10: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 11: 10 teams on HNSW: 1,2,3,4,5,6,7,8,9,10
+ANALYZE 12: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 13: 12 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11,12
+ANALYZE 14: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 15: 12 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11,12
+ANALYZE 16: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 17: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 18: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 19: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+ANALYZE 20: 10 teams on HNSW: 1,2,3,4,5,6,7,8,9,10
+statistics 1000, ANALYZE 1: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+statistics 1000, ANALYZE 2: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+statistics 1000, ANALYZE 3: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+statistics 1000, ANALYZE 4: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+statistics 1000, ANALYZE 5: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+statistics 1000, ANALYZE 6: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+statistics 1000, ANALYZE 7: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+statistics 1000, ANALYZE 8: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+statistics 1000, ANALYZE 9: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11
+statistics 1000, ANALYZE 10: 11 teams on HNSW: 1,2,3,4,5,6,7,8,9,10,11

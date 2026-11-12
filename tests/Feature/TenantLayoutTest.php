@@ -54,4 +54,27 @@ final class TenantLayoutTest extends TestCase
             DB::rollBack();
         }
     }
+
+    #[Test]
+    public function a_statement_planned_once_for_any_team_cannot_use_the_partial_index(): void
+    {
+        $vector = json_encode($this->vectors()['heldout'][0]);
+        $pdo = DB::connection()->getPdo();
+
+        DB::beginTransaction();
+
+        try {
+            DB::statement('create index documents_team8_hnsw on documents using hnsw (embedding vector_cosine_ops) where team_id = 8');
+            DB::statement('set local plan_cache_mode = force_generic_plan');
+            DB::statement('prepare by_team(int, vector) as select id from documents where team_id = $1 order by embedding <=> $2 limit 10');
+
+            $generic = implode("\n", array_column(array_map(fn (object $row): array => (array) $row, DB::select('explain execute by_team(8, '.$pdo->quote($vector).')')), 'QUERY PLAN'));
+            $laravel = $this->plan(DB::table('documents')->select('id')->where('team_id', 8)->whereVectorSimilarTo('embedding', $this->vectors()['heldout'][0], minSimilarity: 0.0)->limit(10));
+
+            $this->assertStringNotContainsString('documents_team8_hnsw', $generic);
+            $this->assertStringContainsString('documents_team8_hnsw', $laravel);
+        } finally {
+            DB::rollBack();
+        }
+    }
 }

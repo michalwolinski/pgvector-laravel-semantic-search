@@ -5,13 +5,14 @@ declare(strict_types=1);
 namespace App\Console\Commands;
 
 use App\Search\Probe;
+use App\Search\SemanticSearch;
 use Illuminate\Console\Attributes\Description;
 use Illuminate\Console\Attributes\Signature;
 use Illuminate\Console\Command;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Facades\DB;
 
-#[Signature('wiki:bench {part : recall|teams|threshold|remedy|layouts} {--queries=200}')]
+#[Signature('wiki:bench {part : recall|teams|threshold|remedy|layouts|combined} {--queries=200}')]
 #[Description('Measures recall, filtered search and similarity thresholds against the imported articles; writes runs/<part>.json')]
 final class Bench extends Command
 {
@@ -27,6 +28,7 @@ final class Bench extends Command
             'threshold' => $this->threshold($queries),
             'remedy' => $this->remedy($queries),
             'layouts' => $this->layouts($queries),
+            'combined' => $this->combined($queries),
         };
 
         $result['meta'] = [
@@ -278,6 +280,53 @@ final class Bench extends Command
         $rows['team_sizes'] = DB::table('documents')->whereIn('team_id', [8, 12, 13, 14])->groupBy('team_id')->selectRaw('team_id, count(*) as size')->pluck('size', 'team_id');
 
         return ['layouts' => $rows];
+    }
+
+    /**
+     * The article's combination: a partial HNSW index for each of teams 1 to 12, and SemanticSearch (relaxed
+     * iterative scan, subquery form) for every one of the 200 teams. The partial indexes are dropped afterwards.
+     *
+     * @param  list<list<float>>  $queries
+     */
+    private function combined(array $queries): array
+    {
+        $queries = array_slice($queries, 0, 10);
+        $search = new SemanticSearch;
+        $teams = [];
+
+        foreach (range(1, 12) as $team) {
+            DB::statement("create index documents_team{$team}_hnsw on documents using hnsw (embedding vector_cosine_ops) where team_id = {$team}");
+        }
+
+        DB::statement('analyze documents');
+
+        try {
+            foreach (range(1, 200) as $team) {
+                $returned = 0;
+                $correct = 0;
+                $times = [];
+
+                foreach ($queries as $vector) {
+                    $truth = Probe::exact($this->nearest($vector)->where('team_id', $team));
+                    $started = hrtime(true);
+                    $rows = $search->forTeam($team, $vector);
+                    $times[] = (hrtime(true) - $started) / 1e6;
+                    $returned += $rows->count();
+                    $correct += count(array_intersect($rows->pluck('id')->map(fn (mixed $id): int => (int) $id)->all(), $truth));
+                }
+
+                $teams[] = ['team_id' => $team, 'rows' => $returned, 'recall' => $correct / (10 * count($queries)), 'median_ms' => $this->median($times)];
+            }
+        } finally {
+            foreach (range(1, 12) as $team) {
+                DB::statement("drop index documents_team{$team}_hnsw");
+            }
+        }
+
+        $recalls = array_column($teams, 'recall');
+        $this->line(sprintf('rows %d/%d, recall min %.3f mean %.3f', array_sum(array_column($teams, 'rows')), 200 * 10 * count($queries), min($recalls), array_sum($recalls) / count($recalls)));
+
+        return ['teams' => $teams];
     }
 
     /** pgvector's README advice in Laravel terms: nearest ten in a subquery, the distance filter outside it. */

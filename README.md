@@ -46,7 +46,8 @@ php artisan test
 | `php artisan wiki:bench threshold --queries=50` | `runs/threshold.json` | The threshold and iterative scan collide |
 | `php artisan wiki:bench remedy --queries=20` | `runs/remedy.json` | strict vs relaxed order in the subquery form |
 | `docker compose exec -T db psql -U laravel wiki < scripts/partitions.sql`, then `php artisan wiki:bench layouts --queries=20` | `runs/partitions.log`, `runs/layouts.json` | Partial indexes and partitions |
-| `php scripts/analyze-flips.php` | `runs/analyze-flips.json` | which teams go to HNSW after each ANALYZE |
+| `php scripts/analyze-flips.php` | `runs/analyze-flips.json`, `runs/analyze-flips.txt` | which teams go to HNSW after each ANALYZE, default and with statistics 1000 |
+| `php artisan wiki:bench combined --queries=10` | `runs/combined.json` | partial indexes for teams 1–12 plus SemanticSearch for all 200 |
 | `php scripts/thresholds.php` | `runs/thresholds.json` | Is 0.6 a good threshold? |
 | `php scripts/shapes.php` | `runs/shapes.json` | What whereVectorSimilarTo sends |
 | `docker compose exec -T db psql -U laravel wiki < scripts/index-build.sql` | `runs/index-build.log` | Building the index |
@@ -73,6 +74,7 @@ php artisan test
 | The example migration builds the same index after the import | `IndexMigrationExampleTest` |
 | A partial index gives team 8 all its rows; partitions fix the teams that have one and move the problem into the default partition | `TenantLayoutTest` |
 | `cursorPaginate()` fails with vector ordering in both forms | `CursorPaginateTest` |
+| A generic plan cannot use the partial index; Laravel's queries can | `TenantLayoutTest` |
 | `simplePaginate()` stops offering pages at page 4; inside an outer transaction `SET LOCAL` outlives the search; relaxed order needs `distance + 0` outside | `RemedyTest` |
 | Strict order returns 877 of 931 matches, with or without a higher scan cap; relaxed returns 931 | `PaginationTest` |
 

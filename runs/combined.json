@@ -1,0 +1,1211 @@
+{
+    "teams": [
+        {
+            "team_id": 1,
+            "rows": 100,
+            "recall": 0.99,
+            "median_ms": 8.875833
+        },
+        {
+            "team_id": 2,
+            "rows": 100,
+            "recall": 0.98,
+            "median_ms": 7.104832999999999
+        },
+        {
+            "team_id": 3,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.5341875
+        },
+        {
+            "team_id": 4,
+            "rows": 100,
+            "recall": 0.97,
+            "median_ms": 8.689249499999999
+        },
+        {
+            "team_id": 5,
+            "rows": 100,
+            "recall": 0.99,
+            "median_ms": 8.4206665
+        },
+        {
+            "team_id": 6,
+            "rows": 100,
+            "recall": 0.98,
+            "median_ms": 7.2277915
+        },
+        {
+            "team_id": 7,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.3230415
+        },
+        {
+            "team_id": 8,
+            "rows": 100,
+            "recall": 0.99,
+            "median_ms": 7.321958
+        },
+        {
+            "team_id": 9,
+            "rows": 100,
+            "recall": 0.99,
+            "median_ms": 6.9965625
+        },
+        {
+            "team_id": 10,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.8199784999999995
+        },
+        {
+            "team_id": 11,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.854438
+        },
+        {
+            "team_id": 12,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.570396000000001
+        },
+        {
+            "team_id": 13,
+            "rows": 100,
+            "recall": 0.94,
+            "median_ms": 38.640146
+        },
+        {
+            "team_id": 14,
+            "rows": 100,
+            "recall": 0.96,
+            "median_ms": 20.933708
+        },
+        {
+            "team_id": 15,
+            "rows": 100,
+            "recall": 0.97,
+            "median_ms": 21.573771
+        },
+        {
+            "team_id": 16,
+            "rows": 100,
+            "recall": 0.98,
+            "median_ms": 19.4596875
+        },
+        {
+            "team_id": 17,
+            "rows": 100,
+            "recall": 0.98,
+            "median_ms": 24.7303335
+        },
+        {
+            "team_id": 18,
+            "rows": 100,
+            "recall": 0.97,
+            "median_ms": 22.044542
+        },
+        {
+            "team_id": 19,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.8102705
+        },
+        {
+            "team_id": 20,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 9.812521
+        },
+        {
+            "team_id": 21,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.307437499999999
+        },
+        {
+            "team_id": 22,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.7523125
+        },
+        {
+            "team_id": 23,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.7175005
+        },
+        {
+            "team_id": 24,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 10.353667
+        },
+        {
+            "team_id": 25,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.619729
+        },
+        {
+            "team_id": 26,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.7097295
+        },
+        {
+            "team_id": 27,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.586896
+        },
+        {
+            "team_id": 28,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 11.991770500000001
+        },
+        {
+            "team_id": 29,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 9.0512705
+        },
+        {
+            "team_id": 30,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 11.6527915
+        },
+        {
+            "team_id": 31,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 9.610021
+        },
+        {
+            "team_id": 32,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.806249999999999
+        },
+        {
+            "team_id": 33,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.7804585
+        },
+        {
+            "team_id": 34,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.4645835
+        },
+        {
+            "team_id": 35,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.1375
+        },
+        {
+            "team_id": 36,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.251625
+        },
+        {
+            "team_id": 37,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 9.1627915
+        },
+        {
+            "team_id": 38,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.7629585
+        },
+        {
+            "team_id": 39,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.768333
+        },
+        {
+            "team_id": 40,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.5508334999999995
+        },
+        {
+            "team_id": 41,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.174854
+        },
+        {
+            "team_id": 42,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.9722915
+        },
+        {
+            "team_id": 43,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.388104
+        },
+        {
+            "team_id": 44,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.6766665
+        },
+        {
+            "team_id": 45,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.74025
+        },
+        {
+            "team_id": 46,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.411167
+        },
+        {
+            "team_id": 47,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 9.4775835
+        },
+        {
+            "team_id": 48,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.505416499999999
+        },
+        {
+            "team_id": 49,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.2092705
+        },
+        {
+            "team_id": 50,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 9.8902085
+        },
+        {
+            "team_id": 51,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.0083125
+        },
+        {
+            "team_id": 52,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.2995
+        },
+        {
+            "team_id": 53,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.5412915
+        },
+        {
+            "team_id": 54,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.2603124999999995
+        },
+        {
+            "team_id": 55,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.131686999999999
+        },
+        {
+            "team_id": 56,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.2375005
+        },
+        {
+            "team_id": 57,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.753645500000001
+        },
+        {
+            "team_id": 58,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.4637295
+        },
+        {
+            "team_id": 59,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 9.5524795
+        },
+        {
+            "team_id": 60,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.354021
+        },
+        {
+            "team_id": 61,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.329354
+        },
+        {
+            "team_id": 62,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.9271665
+        },
+        {
+            "team_id": 63,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.0507290000000005
+        },
+        {
+            "team_id": 64,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.61625
+        },
+        {
+            "team_id": 65,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.6100625
+        },
+        {
+            "team_id": 66,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.95475
+        },
+        {
+            "team_id": 67,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.753604
+        },
+        {
+            "team_id": 68,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.7742915
+        },
+        {
+            "team_id": 69,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.281771
+        },
+        {
+            "team_id": 70,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.622646
+        },
+        {
+            "team_id": 71,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.863312499999999
+        },
+        {
+            "team_id": 72,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.127542
+        },
+        {
+            "team_id": 73,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.381729
+        },
+        {
+            "team_id": 74,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.2973955
+        },
+        {
+            "team_id": 75,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 9.7508125
+        },
+        {
+            "team_id": 76,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 10.0007915
+        },
+        {
+            "team_id": 77,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.9525
+        },
+        {
+            "team_id": 78,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 10.341771
+        },
+        {
+            "team_id": 79,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.488604500000001
+        },
+        {
+            "team_id": 80,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.9710415
+        },
+        {
+            "team_id": 81,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.249791500000001
+        },
+        {
+            "team_id": 82,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.9334585
+        },
+        {
+            "team_id": 83,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.419563
+        },
+        {
+            "team_id": 84,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.8222085
+        },
+        {
+            "team_id": 85,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.802813
+        },
+        {
+            "team_id": 86,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.1686250000000005
+        },
+        {
+            "team_id": 87,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.106438000000001
+        },
+        {
+            "team_id": 88,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.3143335
+        },
+        {
+            "team_id": 89,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.5807495
+        },
+        {
+            "team_id": 90,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.9679375
+        },
+        {
+            "team_id": 91,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.346792
+        },
+        {
+            "team_id": 92,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.7560625000000005
+        },
+        {
+            "team_id": 93,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.1452915
+        },
+        {
+            "team_id": 94,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.396542
+        },
+        {
+            "team_id": 95,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.109917
+        },
+        {
+            "team_id": 96,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.1151665
+        },
+        {
+            "team_id": 97,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.3907295
+        },
+        {
+            "team_id": 98,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.7318125
+        },
+        {
+            "team_id": 99,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.5324795
+        },
+        {
+            "team_id": 100,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.933917
+        },
+        {
+            "team_id": 101,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.3808335
+        },
+        {
+            "team_id": 102,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.367229
+        },
+        {
+            "team_id": 103,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.9236249999999995
+        },
+        {
+            "team_id": 104,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.288145999999999
+        },
+        {
+            "team_id": 105,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.993833
+        },
+        {
+            "team_id": 106,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 10.2479585
+        },
+        {
+            "team_id": 107,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.176103999999999
+        },
+        {
+            "team_id": 108,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.848833
+        },
+        {
+            "team_id": 109,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.1071875
+        },
+        {
+            "team_id": 110,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.041
+        },
+        {
+            "team_id": 111,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.953958500000001
+        },
+        {
+            "team_id": 112,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.9180625
+        },
+        {
+            "team_id": 113,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.509812999999999
+        },
+        {
+            "team_id": 114,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.902229500000001
+        },
+        {
+            "team_id": 115,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.698812500000001
+        },
+        {
+            "team_id": 116,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.510167
+        },
+        {
+            "team_id": 117,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.822292
+        },
+        {
+            "team_id": 118,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.442062
+        },
+        {
+            "team_id": 119,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.851312500000001
+        },
+        {
+            "team_id": 120,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.3803335
+        },
+        {
+            "team_id": 121,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.38575
+        },
+        {
+            "team_id": 122,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.780646
+        },
+        {
+            "team_id": 123,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.073812500000001
+        },
+        {
+            "team_id": 124,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.425521
+        },
+        {
+            "team_id": 125,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.591646
+        },
+        {
+            "team_id": 126,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.0869375
+        },
+        {
+            "team_id": 127,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.4765
+        },
+        {
+            "team_id": 128,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.812937
+        },
+        {
+            "team_id": 129,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.0554165
+        },
+        {
+            "team_id": 130,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.100375
+        },
+        {
+            "team_id": 131,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.8928955
+        },
+        {
+            "team_id": 132,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.3107085
+        },
+        {
+            "team_id": 133,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.9335625
+        },
+        {
+            "team_id": 134,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.883917
+        },
+        {
+            "team_id": 135,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.3072505
+        },
+        {
+            "team_id": 136,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.722625
+        },
+        {
+            "team_id": 137,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.160125
+        },
+        {
+            "team_id": 138,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.355771
+        },
+        {
+            "team_id": 139,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.074125
+        },
+        {
+            "team_id": 140,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.781000499999999
+        },
+        {
+            "team_id": 141,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.888645499999999
+        },
+        {
+            "team_id": 142,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.1431249999999995
+        },
+        {
+            "team_id": 143,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.2067915
+        },
+        {
+            "team_id": 144,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.5441044999999995
+        },
+        {
+            "team_id": 145,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.211624499999999
+        },
+        {
+            "team_id": 146,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.6668955
+        },
+        {
+            "team_id": 147,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.1658755
+        },
+        {
+            "team_id": 148,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.0575205
+        },
+        {
+            "team_id": 149,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.154146
+        },
+        {
+            "team_id": 150,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.600542
+        },
+        {
+            "team_id": 151,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.764
+        },
+        {
+            "team_id": 152,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.8495415
+        },
+        {
+            "team_id": 153,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.402208
+        },
+        {
+            "team_id": 154,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.567145999999999
+        },
+        {
+            "team_id": 155,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.2054375
+        },
+        {
+            "team_id": 156,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.3483335
+        },
+        {
+            "team_id": 157,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.3576455
+        },
+        {
+            "team_id": 158,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.8438745
+        },
+        {
+            "team_id": 159,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.6008545000000005
+        },
+        {
+            "team_id": 160,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.3277915
+        },
+        {
+            "team_id": 161,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.4047295
+        },
+        {
+            "team_id": 162,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 10.0139375
+        },
+        {
+            "team_id": 163,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.85275
+        },
+        {
+            "team_id": 164,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.859292
+        },
+        {
+            "team_id": 165,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.24225
+        },
+        {
+            "team_id": 166,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.8267085000000005
+        },
+        {
+            "team_id": 167,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.512104
+        },
+        {
+            "team_id": 168,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.787375000000001
+        },
+        {
+            "team_id": 169,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.9346245
+        },
+        {
+            "team_id": 170,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.568792
+        },
+        {
+            "team_id": 171,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.2738119999999995
+        },
+        {
+            "team_id": 172,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.265188
+        },
+        {
+            "team_id": 173,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.7469165
+        },
+        {
+            "team_id": 174,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.0246245
+        },
+        {
+            "team_id": 175,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.8640625
+        },
+        {
+            "team_id": 176,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.9523125
+        },
+        {
+            "team_id": 177,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.042354
+        },
+        {
+            "team_id": 178,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.0924795
+        },
+        {
+            "team_id": 179,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.8390835
+        },
+        {
+            "team_id": 180,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.9007915
+        },
+        {
+            "team_id": 181,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.556875
+        },
+        {
+            "team_id": 182,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.397520500000001
+        },
+        {
+            "team_id": 183,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.3675
+        },
+        {
+            "team_id": 184,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.7408125000000005
+        },
+        {
+            "team_id": 185,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.8601875
+        },
+        {
+            "team_id": 186,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.425395999999999
+        },
+        {
+            "team_id": 187,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.929271
+        },
+        {
+            "team_id": 188,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.986458
+        },
+        {
+            "team_id": 189,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.0854995
+        },
+        {
+            "team_id": 190,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 5.9567084999999995
+        },
+        {
+            "team_id": 191,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.243
+        },
+        {
+            "team_id": 192,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.974
+        },
+        {
+            "team_id": 193,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 8.648396
+        },
+        {
+            "team_id": 194,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 9.6442505
+        },
+        {
+            "team_id": 195,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.3650625000000005
+        },
+        {
+            "team_id": 196,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.202896
+        },
+        {
+            "team_id": 197,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 9.004896
+        },
+        {
+            "team_id": 198,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 10.016041999999999
+        },
+        {
+            "team_id": 199,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 7.6204795
+        },
+        {
+            "team_id": 200,
+            "rows": 100,
+            "recall": 1,
+            "median_ms": 6.1972085
+        }
+    ],
+    "meta": {
+        "queries": 10,
+        "pgvector": "0.8.7",
+        "postgres": "18.6 (Debian 18.6-1.pgdg13+2)",
+        "rows": 100000,
+        "at": "2026-11-12T08:25:46+00:00"
+    }
+}
