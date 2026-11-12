@@ -159,6 +159,8 @@ expect(f'at least {min(x["recall"] for x in comb) * 100:g}% for every team and {
 slow = max(comb, key=lambda x: x['median_ms'])
 expect(f'team {slow["team_id"]} took a median of {slow["median_ms"]:.1f} ms', 'combined slowest')
 
+expect(f'returned all {sum(x["rows"] for x in comb):,} rows asked for across the 200 teams, at a recall of at least {min(x["recall"] for x in comb) * 100:g}% for every team', 'intro combined')
+
 # code blocks: each named file must contain the block's lines, in order
 for block in re.findall(r'<pre><code class="language-(?:php|sql)">(.*?)</code></pre>', article, re.S):
     body = html.unescape(block)
